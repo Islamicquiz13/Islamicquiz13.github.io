@@ -649,9 +649,9 @@ function exposeAns() {
         answers[j].parentElement.removeAttribute("onclick");
         answers[j].parentElement.style.transition = "background-color 1s 400ms";
         if (answers[j].previousElementSibling.value == "true") {
-            answers[j].parentElement.style.backgroundColor = "#0cff0094";
+            answers[j].parentElement.style.backgroundColor = "#0cff0090";
         } else {
-            answers[j].parentElement.style.backgroundColor = "#d42e3d94";
+            answers[j].parentElement.style.backgroundColor = "#d42e3d90";
         }
         answers[j].parentElement.style.color = "#eee";
     }
