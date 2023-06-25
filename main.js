@@ -612,7 +612,7 @@ function newQuis() {
     } else {
         timerFun();
         numCir.innerHTML = goodAns;
-        question.innerHTML = (questionIndex+1) + "- " + Questions[questionIndex].q;
+        question.innerHTML = (parseInt(questionIndex)+1) + "- " + Questions[questionIndex].q;
         for (i = 0; i < 4; i++) {
             answers[i].parentElement.style.transition = "0s";
             answers[i].innerHTML = Questions[questionIndex].a[i].text;
@@ -651,7 +651,7 @@ function exposeAns() {
         if (answers[j].previousElementSibling.value == "true") {
             answers[j].parentElement.style.backgroundColor = "#0cff0090";
         } else {
-            answers[j].parentElement.style.backgroundColor = "#d42e3d90";
+            answers[j].parentElement.style.backgroundColor = "#d42e3d94";
         }
         answers[j].parentElement.style.color = "#eee";
     }
