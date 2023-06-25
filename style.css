@@ -197,6 +197,7 @@ footer{
   padding: 6px;
   opacity: .6;
   font-size: 12px;
+    font-family: "Helvetica Neue", Arial, sans-serif;
 }
 @keyframes errorInput {
     10%{transform: translate(-4px,0) scale(.98) rotate(1deg);}
