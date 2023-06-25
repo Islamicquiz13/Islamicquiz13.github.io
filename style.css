@@ -1,5 +1,5 @@
 *{
-    margin: 0; 
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -132,8 +132,10 @@ input[type=button]{
 }
 .spanparent>span:first-child{
 position: absolute;
-border-width: 2px;border-style: solid;/* border: 2px solid var(--yellow); */
-box-shadow: 0 0 20px -10px rgb(95 254 50) inset;
+border-width: 2px;border-style: solid;
+border-color: rgb(0, 149, 255);
+/* border: 2px solid var(--yellow); */
+box-shadow: 0 0 20px -10px rgb(0, 149, 255) inset;
 border-radius: 50%;
 height: 100%;
 width: 100%;
@@ -191,13 +193,13 @@ footer{
   width: 100%;
   color: white;
   position: absolute;
-  bottom:0;
+  bottom: 0;
   left: 0;
   text-align: center;
   padding: 6px;
   opacity: .6;
   font-size: 12px;
-    font-family: "Helvetica Neue", Arial, sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
 }
 @keyframes errorInput {
     10%{transform: translate(-4px,0) scale(.98) rotate(1deg);}
