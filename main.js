@@ -693,7 +693,7 @@ function timerFun() {
         }
         currentIndexCirArr++;
     }, 3000)
-}
+} 
 
 function reStarttimerCir(currentIndexPara) {
     timerCir.style.animation = "none";
