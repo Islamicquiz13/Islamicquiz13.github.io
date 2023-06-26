@@ -65,6 +65,7 @@ div.menu-btn span{
 }
 div.menu-btn span:last-child{
   width:80%;
+    background-color:red;
 }
 section{
     position: absolute;
