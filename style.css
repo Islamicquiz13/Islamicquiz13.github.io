@@ -10,7 +10,7 @@
 
 body,:root ,html {
     display: inline-block;
-    height: 100vmax;
+    height: 100%;
     position: relative;
     width: 100vw;
     overflow: hidden;
@@ -65,7 +65,6 @@ div.menu-btn span{
 }
 div.menu-btn span:last-child{
   width:80%;
-    background:red;
 }
 section{
     position: absolute;
@@ -224,8 +223,7 @@ footer{
   color: white;
   position: absolute;
   bottom:50px;
-  left: 50px;
-    background-color:red;
+  left: 0px;
   text-align: center;
   padding: 6px;
   opacity: .6;
