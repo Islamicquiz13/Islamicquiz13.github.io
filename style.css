@@ -7,10 +7,19 @@
     margin: 0;
     padding: 0;
 }
-
-body,:root ,html {
+body{
     display: inline-block;
     height: 100%;
+    position: relative;
+    width: 100%;
+}
+:root {
+    display: inline-block;
+    height: 100%;
+}
+html {
+    display: inline-block;
+    height: 100vmax;
     position: relative;
     width: 100vw;
     overflow: hidden;
