@@ -10,7 +10,7 @@
 
 body,:root ,html {
     display: inline-block;
-    height: 100%;
+    height: 100vmax;
     position: relative;
     width: 100vw;
     overflow: hidden;
