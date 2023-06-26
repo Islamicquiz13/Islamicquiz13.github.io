@@ -30,7 +30,7 @@ let numCir = document.querySelector(".spanparent>.num");
 let question = document.querySelector("section h2");
 let answers = document.querySelectorAll("ul>li>label");
 function showNav() {
-  alert();
+  alert("hdhdh");
 }
 function clickEffect(fg) {
     fg.style.animation = 'clickEffect 200ms';
