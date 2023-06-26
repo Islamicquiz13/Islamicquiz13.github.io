@@ -220,7 +220,7 @@ footer{
   width: 100%;
   color: white;
   position: absolute;
-  bottom: 90px;
+  bottom: 0px;
     background-color:red;
   left: 0;
   text-align: center;
