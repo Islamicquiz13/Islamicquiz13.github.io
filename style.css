@@ -65,6 +65,7 @@ div.menu-btn span{
 }
 div.menu-btn span:last-child{
   width:80%;
+    background-color:red;
 }
 section{
     position: absolute;
@@ -222,7 +223,7 @@ footer{
   width: 100%;
   color: white;
   position: absolute;
-  bottom: 60px;
+  top: 60px;
   left: 0;
   text-align: center;
   padding: 6px;
