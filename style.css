@@ -10,8 +10,9 @@
 
 body,:root ,html {
     display: inline-block;
-    height: 100vh;
-    position: relative;width: 100vw;
+    height: 100vmax;
+    position: relative;
+    width: 100vw;
     overflow: hidden;
     background-color: #232323;
     --dlight: #ffffffaa;
@@ -39,6 +40,32 @@ body,:root ,html {
 body{
     direction: rtl;
 }
+nav{
+  position: absolute;
+  width: 100%;
+  top: 24px;
+}
+div.menu-btn{
+  width: 42px;
+  margin: 0 24px;
+  padding: 6px 6px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  z-index: 9;
+  opacity: 0.5;
+}
+div.menu-btn span{
+  height: 3px;
+  width: 100%;
+  background: #ffffff77;
+  border-radius: 3px;
+  margin: 3px 0;
+  
+}
+div.menu-btn span:last-child{
+  width:80%;
+}
 section{
     position: absolute;
     top: 50%;
@@ -60,6 +87,7 @@ section{
     }
 .firstSection>label{
     font-size: 24px;
+    margin-bottom: -12px;
 }
 .firstSection .contain{
     display: flex;
@@ -100,6 +128,7 @@ input[type=button]{
 }
 .buffer{
     padding: 20px;
+    padding-bottom: 12px;
     position: relative;
     width: 100%;
 }
