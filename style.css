@@ -220,8 +220,8 @@ footer{
   width: 100%;
   color: white;
   position: absolute;
-  bottom: 12px;
   left: 0;
+  bottom:0;
   text-align: center;
   padding: 6px;
   opacity: .6;
