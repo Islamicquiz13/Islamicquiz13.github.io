@@ -9,7 +9,7 @@
 }
 body,:root ,html {
     display: inline-block;
-    height: 100vh;
+    height: 100%;
     position: relative;
     width: 100vw;
     overflow: hidden;
@@ -220,8 +220,7 @@ footer{
   width: 100%;
   color: white;
   position: absolute;
-  bottom: 60px;
-    background-color:red;
+  bottom: 12px;
   left: 0;
   text-align: center;
   padding: 6px;
