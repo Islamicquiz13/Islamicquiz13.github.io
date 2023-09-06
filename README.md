@@ -1,2 +1,2 @@
 # Islamicquiz13.github.io
-![اللت]website.jpg
+![ggh](website.jpg)
