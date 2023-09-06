@@ -7,6 +7,7 @@
     margin: 0;
     padding: 0;
 }
+
 body,:root ,html {
     display: inline-block;
     height: 100%;
@@ -17,6 +18,7 @@ body,:root ,html {
     --dlight: #ffffffaa;
     --yellow:rgb(247, 190, 17);
 }
+
 .redLight {
     transition: 20s linear;
     position: absolute;
@@ -103,7 +105,9 @@ input {
     text-align: center;
     transition: 200ms;
 }
-input[type=button]{
+.button{
+    border-radius: 6px;
+    font-size: 20px;
     margin-top: -8px;
     background-color: #4169e194;
     padding: 3px;
@@ -220,8 +224,8 @@ footer{
   width: 100%;
   color: white;
   position: absolute;
+  bottom: 0;
   left: 0;
-  bottom:0;
   text-align: center;
   padding: 6px;
   opacity: .6;
