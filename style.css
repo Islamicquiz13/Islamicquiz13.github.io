@@ -15,14 +15,14 @@
 body,
 :root,
 html {
-  display: inline-block;
-  height: 100%;
-  position: relative;
-  width: 100vw;
   overflow: hidden;
   background-color: #232323;
   --dlight: #ffffffaa;
   --yellow: rgb(247, 190, 17);
+  display: inline-block;
+  height: 100%;
+  position: relative;
+  width: 100vw;
 }
 
 .redLight {
